@@ -86,10 +86,25 @@
    A list is a collection of information. It allows you to collect and store data faster. With a list it is easier to perform different tasks. 
   </p>
   <p>
- <img src= "maxresdefault.jpg" alt="recolored" style="width:433px;height:233px;">
-   <img src="recolored.jpg" alt="recolored" style="width:433px;height:233px;">
-   <img src="Capture.PNG"alt="recolored" style="width:433px;height:233px;">
-   
+   <script>
+  var newsrc = "recolored.jpg";
+
+function changeImage() {
+  if ( newsrc == "recolored.jpg" ) {
+    document.images["pic"].src = "/images/program/js/forms/recolored.jpg";
+    document.images["pic"].alt = "recolored";
+    newsrc  = "recolored.jpg";
+  }
+  else {
+    document.images["pic"].src = "/images/program/js/forms/maxresdefault.jpg";
+    document.images["pic"].alt = "MAX";
+    newsrc  = "recolored.jpg";
+  }
+}
+
+
+   </script>
+    <img src="Capture.PNG"alt="recolored" style="width:433px;height:233px;">
   </p>
  <h2>
   <center>
