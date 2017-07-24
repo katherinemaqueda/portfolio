@@ -87,21 +87,9 @@
   </p>
   <p>
    <script>
-  var newsrc = "recolored.jpg";
+ <button onclick="document.getElementById('myImage').src='recolored.jpg'">recolored </button>
 
-function changeImage() {
-  if ( newsrc == "recolored.jpg" ) {
-    document.images["pic"].src = "recolored.jpg";
-    document.images["pic"].alt = "recolored";
-    newsrc  = "recolored.jpg";
-  }
-  else {
-    document.images["pic"].src = "maxresdefault.jpg";
-    document.images["pic"].alt = "MAX";
-    newsrc  = "recolored.jpg";
-  }
-}
-
+<img id="myImage" src="maxresdefault.jpg" style="width:100px">
 
    </script>
   </p>
